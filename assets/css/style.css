@@ -20,8 +20,19 @@ h1 {
     font-size: 48px;
 }
 
-.seo {
-    color: #d9dcd6;
+h2 {
+    
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
 }
 
 nav {
@@ -50,11 +61,15 @@ p {
     font-size: 16px;
 }
 
+.seo {
+    color: #d9dcd6;
+}
+
+
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -90,12 +105,7 @@ article {
     margin-bottom: 32px;
     color:#ffffff;
 }
-/* removed redundancy and combined to just h3 */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* did not need .benefit img 3 times, condenced to 1 */
+
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -133,12 +143,6 @@ h3 {
     max-height: 200px;
 }
 
-h2 {
-    
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 footer {
     padding: 30px;
     clear: both;
@@ -146,6 +150,3 @@ footer {
     text-align: center;
 }
 
-h4{
-    font-size: 20px;
-}
